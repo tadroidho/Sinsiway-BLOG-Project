@@ -408,6 +408,47 @@ footer{
   height: 400px;
   background-color: #1E1E1E;
   padding:10px;
-  text-align: center;
+  text-align: left;
   color:white;
+}
+
+.company-info{
+  display:inline-block;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 70px;
+  font-size: 17px;
+  text-align: left;
+  float: left;
+}
+
+.footer-blog-menu{
+  display:inline-block;
+  text-align: left;
+  margin-left: 185px;
+  margin-top: 40px;
+  float: right;
+}
+
+.footer-blog-menu > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 383px;
+  line-height: 35px;
+}
+
+.footer-blog-menu >ul > li{
+  border-bottom: 1px solid #efefef;
+}
+
+.footer-blog-menu > ul > li > a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+footer img{
+  width: 160px;
+  height: auto;
 }
