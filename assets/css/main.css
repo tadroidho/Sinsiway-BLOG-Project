@@ -242,6 +242,11 @@ img {
   margin-top: -50px;
 }
 
+.rank-list > .count{
+  left: 15px;
+  top: 38px;
+}
+
 .latest-card img{
   margin-left: 40px;
   border-radius: 30px;
@@ -352,6 +357,7 @@ img {
   color:black;
   position: relative;
   height: 200px;
+  border-radius: 0 0 10px 10px;
 }
 
 .container > .content-day{
@@ -370,7 +376,7 @@ img {
   font-size: 14px;
   bottom: -18px;
   position: absolute;
-  left: 30%;
+  left: 32%;
   border-radius: 18px;
   text-align: center;
   padding-top: 8px;
