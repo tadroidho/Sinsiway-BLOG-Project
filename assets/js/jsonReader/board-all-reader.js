@@ -2,8 +2,6 @@
 $.getJSON('./data/board.json', function(data){
   var html = '';
   $.each(data[0].post, function(index, entry){
-    var i=0;
-    console.log(i);
     html += '<div class="card col col-4">';
     html += ' <div class="card-img-box">';
     html += '   <img src="'+entry.thumbnail+'" alt="Avatar" style="width:100%">';
@@ -23,12 +21,10 @@ $.getJSON('./data/board.json', function(data){
     html += '   <div class="read-more" name="'+entry.no+'">READ MORE</div>';
     html += ' </div>';
     html += '</div>';
-    //html += '<h3 class="term">' + entry.post.no + '</h3>';
-    //html += '<div class="part">' + entry.part + '</div>';
-    //html += '<div class="definition">';
-    //html += entry.definition;
-    i++;
+    if(index==8){
+      return false;
+    }
   });
-  console.log(html);
   $('#post-list').html(html);
+  console.log(data[0]);
 });

@@ -7,6 +7,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/jsonReader/board-all-reader.js"></script>
+    <script src="./assets/js/jsonReader/board-top-reader.js"></script>
+    <script src="./assets/js/jsonReader/category-main-reader.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -76,8 +78,13 @@
           <div class="col col-12">
             <div class="container_inner">
               <div class="container_inner_box">
-                <h3>인기 카테고리</h3>
-                <div class="row grid">
+                <div class="title-name">
+                  <h3>카테고리</h3>
+                  <div class="category-all">
+                    전체보기
+                  </div>
+                </div>
+                <div id="category" class="row grid">
                   <div class="category-card col-2" style="background: url('http://ghost.estudiopatagon.com/airo/content/images/2019/07/kaleb-kendall-6nRjHtBDk4o-unsplash-1.jpg');">
                     <span class="count">10</span>
                     <span class="category-card-title">DJI</span>
@@ -113,10 +120,10 @@
                 <div class="row grid">
                   <div class="list-card featured-card">
                     <h3>인기 게시글</h3>
-                    <div class="col">
+                    <div id="top-board" class="col">
                       <div class="rank-list">
                         <span class="count">1</span>
-                        <a href="#"><img src="http://ghost.estudiopatagon.com/airo/content/images/2019/07/kaleb-kendall-6nRjHtBDk4o-unsplash-1.jpg" alt=""></a>
+                        <a href="./board.html?"><div class="top-bard-thumbnail" style="background: url('http://ghost.estudiopatagon.com/airo/content/images/2019/07/kaleb-kendall-6nRjHtBDk4o-unsplash-1.jpg')"></div></a>
                         <div class="rank-list-content">
                           <h4>GoolRC T33</h4>
                           <i class="material-icons">calendar_today</i>
@@ -127,7 +134,7 @@
                       </div>
                       <div class="rank-list">
                         <span class="count">1</span>
-                        <a href="#"><img src="http://ghost.estudiopatagon.com/airo/content/images/2019/07/kaleb-kendall-6nRjHtBDk4o-unsplash-1.jpg" alt=""></a>
+                        <a href="#"><div class="top-bard-thumbnail" style="background: url('http://ghost.estudiopatagon.com/airo/content/images/2019/07/kaleb-kendall-6nRjHtBDk4o-unsplash-1.jpg')"></div></a>
                         <div class="rank-list-content">
                           <h4>GoolRC T33</h4>
                           <i class="material-icons">calendar_today</i>
@@ -138,7 +145,7 @@
                       </div>
                       <div class="rank-list">
                         <span class="count">1</span>
-                        <a href="#"><img src="http://ghost.estudiopatagon.com/airo/content/images/2019/07/kaleb-kendall-6nRjHtBDk4o-unsplash-1.jpg" alt=""></a>
+                        <a href="#"><div class="top-bard-thumbnail" style="background: url('http://ghost.estudiopatagon.com/airo/content/images/2019/07/kaleb-kendall-6nRjHtBDk4o-unsplash-1.jpg')"></div></a>
                         <div class="rank-list-content">
                           <h4>GoolRC T33</h4>
                           <i class="material-icons">calendar_today</i>

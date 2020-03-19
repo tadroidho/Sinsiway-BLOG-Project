@@ -180,6 +180,26 @@ img{
 
 /*category-card*/
 
+.title-name{
+  display: inline-block;
+}
+
+.title-name h3{
+  float:left;
+}
+
+.category-all{
+  float: left;
+  margin: 17px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  background-color: #4F98CA;
+  border-radius: 10px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
 .category-card {
   box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
   transition: 0.3s;
@@ -230,7 +250,9 @@ img {
 }
 
 .rank-list-content{
+  width: 172px;
   display:inline-block;
+  vertical-align: super;
 }
 
 .rank-list-content i{
@@ -238,14 +260,25 @@ img {
   margin-left: 18px;
 }
 
+.rank-list-content h4{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .rank-list-content time{
   font-size: 12px;
 }
 
-.rank-list a img{
+.rank-list a .top-bard-thumbnail{
   width: 130px;
+  height: 86px;
   margin-left: 65px;
-  margin-top: -50px;
+  display: inline-block;
+  margin-top: 10px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .rank-list > .count{
