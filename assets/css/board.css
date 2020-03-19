@@ -1,0 +1,14 @@
+.thumbnail{
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 490px;
+}
+
+.thumbnail > h1{
+
+}

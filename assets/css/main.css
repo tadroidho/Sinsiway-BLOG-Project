@@ -370,6 +370,12 @@ img {
   margin-top: 12px;
 }
 
+.container > h4{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
 .content-day > i{
   margin: 0;
 }
